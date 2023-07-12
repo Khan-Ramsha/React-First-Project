@@ -1,4 +1,13 @@
-.bg-body-tertiary{
-    background-color: aquamarine;
-    
+.row {
+    cursor: pointer;
+    margin: 10px;
+
+}
+.bg{
+    background-color:#024046;
+    color: aliceblue;
+}
+
+.navbar {
+    cursor: pointer;
 }
