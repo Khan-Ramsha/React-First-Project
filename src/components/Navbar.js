@@ -18,7 +18,7 @@ export default function Navbar(props) {
                             <Link className="nav-link" to="/about">{props.aboutText}</Link>
                         </li>
                     </ul>
-                    <div class="row">
+                    <div className="row">
                         Choose color for background
                         <div className="col md-3 mx-2 bg-dark rounded-circle text-white" onClick={props.toggleModee}>Black</div>
                         <div className="col md-3 mx-2 bg-secondary rounded-circle text-white" onClick={props.toggleModee2}>Gray</div>
